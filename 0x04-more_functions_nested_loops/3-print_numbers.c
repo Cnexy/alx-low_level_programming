@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
-* print_numbers - print 0123456789
+* print_numbers - print 0 to 9
 * made by Cnexy
-* Return: void
+* Return: no return
 */
 
-int _putchar(int c)
+int _putchar(void)
 {
-	char c;
+	int ch;
 
-	for (c = '0'; c <= '9'; c++)
+	for (ch = 48; ch < 58; ch++)
 	{
-	_putchar(c);
+		_putchar(ch);
 	}
 	_putchar('\n');
 }
