@@ -6,7 +6,7 @@
 * Return: no return
 */
 
-int _putchar(void)
+int (void)
 {
 	int ch;
 
