@@ -3,16 +3,16 @@
 /**
 * print_numbers - print 0 to 9
 * made by Cnexy
-* Return: no return
+* Return: void
 */
 
-int (void)
+int print_numbers(void)
 {
-	int ch;
+	char c;
 
-	for (ch = 48; ch < 58; ch++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(ch);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
