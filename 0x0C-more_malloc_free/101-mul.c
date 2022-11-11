@@ -81,7 +81,8 @@ int get_digit(char c)
 	if (digit < 0 || digit > 9)
 	{
 		printf("Error\n");
-		exit(0);
+
+		exit(98);
 	}
 
 	return (digit);
